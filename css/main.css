@@ -6,3 +6,25 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+img {
+  width: 100%;
+}
+
+.img-flex {
+
+}
+
+h2 {
+  font-size: 4rem;
+  font-style: bold;
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.banner {
+
+}
