@@ -1,23 +1,23 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+
+}
+
 img {
   width: 100%;
 }
 
-.img-flex {
-
-}
-
 h2 {
   font-size: 4rem;
-  font-style: bold;
+  font-weight: 700;
 }
 
 p {
@@ -26,5 +26,11 @@ p {
 }
 
 .banner {
+  position: relative;
+}
 
+.img-flex {
+  display: block;
+  width: 100%;
+  position: absolute;
 }
