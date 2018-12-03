@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
 }
 
 *, *::before, *::after {
@@ -8,29 +9,53 @@ html {
 }
 
 body {
-
+  margin: 0;
 }
 
 img {
   width: 100%;
+  position: absolute;
 }
 
 h2 {
+  margin: 0;
+  padding: .1em;
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: bold;
+  color: #fff;
 }
 
 p {
+  margin: 0;
   font-size: 2rem;
   font-style: italic;
-}
-
-.banner {
-  position: relative;
 }
 
 .img-flex {
   display: block;
   width: 100%;
+  position: relative;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+}
+
+.content {
   position: absolute;
+  bottom: -20em;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 50em;
+  width: 100%;
+  overflow: hidden;
+}
+
+span {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+div img.img-flex {
+
 }
